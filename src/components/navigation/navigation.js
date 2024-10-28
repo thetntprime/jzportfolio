@@ -8,10 +8,11 @@ const Navigation = () => {
     <nav className='navi'>
         <img src={logo} alt='Logo' className='logo'></img>
         <div className="menu">
-            <Link></Link>
+            <Link className='listItem'>Home</Link>
+            <Link className='listItem'>About</Link>
+            <Link className='listItem'>Portfolio</Link>
         </div>
-        <button className='menuButton'>
-            <img src="" alt="" className="menuImg" />
+        <button className='contactButton'>
             Contact
         </button>
     </nav>
